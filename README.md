@@ -32,8 +32,8 @@ _Nomviembre 2025_
 
 ### Instrucciones para clonación e instalación de proyecto Web local:
 1. Descargue la herramienta de gestion de repositorios "Git"de la siguiente URL "https://git-scm.com/downloads
-2. Para instalar el proyecto Web desde una terminal (Simbolo del sistema) abra una terminal en su computadora y coloque la dirección del directorio donde desea instalar el proyecto y ejecute el comando `git clone <url_github_nekromorf>`
-3. Entre a la carpeta _administrador_pacientes_aag_ con el comando `cd <carpeta>` y ejecute el comando `npm install` para instalar todas las dependencias.
+2. Para instalar el proyecto Web desde una terminal (Simbolo del sistema) abra una terminal en su computadora y coloque la dirección del directorio donde desea instalar el proyecto y ejecute el comando `git clone https://github.com/Nekromorfo20/pokemon_app_aag.git`
+3. Entre a la carpeta _administrador_pacientes_aag_ con el comando `cd pokemon_app_aag` y ejecute el comando `npm install` para instalar todas las dependencias.
 4. Abra un emulador con el S.O. Android usando alguna aplicación como "Android Studio" o bien conecte su celular vía USB y con el "Modo desarrollador" habilitado (tambien con S.O Android).
 5. Una vez cargado el emulador o conectado el celular, ejecuta el comando `npm run android` para inicial el proyecto App Movil.
 
