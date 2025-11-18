@@ -1,97 +1,41 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# PROYECTO - Pokémon App"
+*Buscador de pokémons.*
 
-# Getting Started
+*Sitio aplicación movil - "proximamente"*
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## Descrición:
+Proyecto del Curso Udemy - React Native CLI - Aplicaciones para IOS y Android - Proyecto app movil buscador de pokémons con React Native, TypeScript y React Native Paper.
 
-## Step 1: Start Metro
+Este proyecto se compone de una app movil que funciona como un buscador de catálogo de pokemons usando la API oficial de pokémon.
+*Sitio web - [PokeAPI.com](https://pokeapi.co/)*
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+La aplicación dispone de las siguientes características:
+* Pantalla principal con un listado de pokemons y un scroll infinito de carga de resultados.
+* Pantalla de información completa de pokémon seleccionado.
+* Pantalla de busqueda de pokémons por nombre o Id.
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+### Desarrollado por:
 
-```sh
-# Using npm
-npm start
+**Alan Eduardo Aguilar Guerrero**  
+_UANL - Lic. Tecnología de Software (Desarrollador Junior)_
 
-# OR using Yarn
-yarn start
-```
+### Fecha de publicación:
+_Nomviembre 2025_
 
-## Step 2: Build and run your app
+### Tecnologías implementadas:
+| App Movil              | Servicios adicionales |
+| ---------------------- | --------------------- |
+| React Native           | PokeAPI.com           |
+| TypeScript             |                       |
+| TanStack - React Query |                       |
+| React Native Paper     |                       |
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+### Instrucciones para clonación e instalación de proyecto Web local:
+1. Descargue la herramienta de gestion de repositorios "Git"de la siguiente URL "https://git-scm.com/downloads
+2. Para instalar el proyecto Web desde una terminal (Simbolo del sistema) abra una terminal en su computadora y coloque la dirección del directorio donde desea instalar el proyecto y ejecute el comando `git clone <url_github_nekromorf>`
+3. Entre a la carpeta _administrador_pacientes_aag_ con el comando `cd <carpeta>` y ejecute el comando `npm install` para instalar todas las dependencias.
+4. Abra un emulador con el S.O. Android usando alguna aplicación como "Android Studio" o bien conecte su celular vía USB y con el "Modo desarrollador" habilitado (tambien con S.O Android).
+5. Una vez cargado el emulador o conectado el celular, ejecuta el comando `npm run android` para inicial el proyecto App Movil.
 
-### Android
-
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+_El proyecto se desplegará en el emulador o bien en el celular conectado via USB._
+_NOTA: Para este proyecto actualmente solo se cuenta con la versión Android se estará trabajando para la versión IOS en una actualización futura._
